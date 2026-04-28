@@ -82,11 +82,7 @@ All three required an Azure App Registration provisioned by IT admin. The reques
 
 ### The Choice
 
-When I raised it before leaving, the head of IT told me to **just say I'd done it.**
-
-I didn't.
-
-The original environment was gone. The App Registration was never provisioned. The three fields were still blank. The straightforward path — and the path I was explicitly advised to take — was to claim the build was complete and move on.
+The original environment was gone. The App Registration was never provisioned. The three fields were still blank. 
 
 Instead, I provisioned a complete Microsoft 365 Business Premium trial tenant from scratch. I scripted the entire infrastructure across eight sequential PowerShell scripts: user accounts, shared mailbox, Azure App Registration with four application permissions, SharePoint site and 17-column list schema, 40 synthetic supplier emails sent via Graph API, full environment verification. I rebuilt the Power Automate flow action-by-action in the browser, extending it with the Graph API HTTP actions that were never provisioned at Senversa. I wrote a Python pipeline on top of it to close every remaining gap. I added an AI enrichment layer using the Anthropic Claude API to classify compliance, supplier risk, and anomalies.
 
