@@ -1,0 +1,1 @@
+Refer to `.claude/rules/` for core instructions and `.claude/docs/` for reference material.

@@ -1,0 +1,11 @@
+.env
+credentials.txt
+.claude/settings.local.json
+tenant_id.txt
+sharepoint_ids.txt
+email_send_log.csv
+environment_verification_report.csv
+__pycache__/
+*.pyc
+.venv/
+synthetic_dataset.csv

@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    ".venv": true,
+    "credentials.txt": true,
+    "tenant_id.txt": true,
+    "sharepoint_ids.txt": true,
+    "email_send_log.csv": true,
+    "environment_verification_report.csv": true
+  }
+}

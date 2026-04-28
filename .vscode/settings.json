@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/ap-tracker/**/__pycache__": true,
+    "**/ap-tracker/**/*.pyc": true,
+    "**/ap-tracker/.venv": true,
+    "**/ap-tracker/credentials.txt": true,
+    "**/ap-tracker/tenant_id.txt": true,
+    "**/ap-tracker/sharepoint_ids.txt": true,
+    "**/ap-tracker/email_send_log.csv": true,
+    "**/ap-tracker/environment_verification_report.csv": true
+  }
+}
