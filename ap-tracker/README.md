@@ -2,7 +2,7 @@
 
 # AP Invoice Tracker
 
-**A solo-engineered analytics pipeline built to close a metrics gap in an AP workflow improvement — without being asked, without access to the original environment, and against explicit advice to just claim it was done.**
+**A solo-engineered analytics pipeline built to close a metrics gap in an AP workflow improvement.**
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://python.org)
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.x-5391FE?logo=powershell&logoColor=white)](https://microsoft.com/powershell)
